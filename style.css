@@ -1,0 +1,57 @@
+html,
+body,
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("image.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-op; */
+}
+
+#card {
+    text-align: center;
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+    border: 1px solid white;
+    background-color: white;
+    height: min-content;
+    flex-direction: column;
+    border-radius: 3%;
+    border: 1px solid wheat;
+}
+
+#tit {
+    font-size: 72px;
+}
+
+#desc,
+#counter,
+#go,
+#lp {
+    margin-top: 5%;
+    font-size: medium;
+}
+
+#counter {
+    font-size: 100px;
+}
+
+#lp,
+#info {
+    font-size: small;
+}
+
+@media screen and (max-width: 768px) {
+    #card {
+        width: 80%;
+    }
+}
