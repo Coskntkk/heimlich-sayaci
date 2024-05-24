@@ -46,8 +46,13 @@ body {
 }
 
 #lp,
-#info {
+#info,
+#cos {
     font-size: small;
+}
+
+#cos {
+    margin-top: 20px;
 }
 
 @media screen and (max-width: 768px) {
