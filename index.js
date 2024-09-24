@@ -1,5 +1,5 @@
-const last = new Date(2024, 7, 6)
-const source = "https://www.sokgazetesi.com.tr/heimlich-manevrasi-bir-hayat-daha-kurtardi-usta-ciragini-hayatta-tuttu"
+const last = new Date(2024, 8, 23)
+const source = "https://www.haberturk.com/amasya-haberleri/35715519-amasyada-ogretmen-ogrencisinin-hayatini-heimlich-manevrasiyla-kurtardi"
 
 const lastData = document.getElementById("last")
 lastData.innerText = `${last.getDate()}/${last.getMonth() + 1}/${last.getFullYear()}`
